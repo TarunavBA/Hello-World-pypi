@@ -18,7 +18,9 @@ with open('name_echoer/__init__.py', 'r') as f:
 with open('README.rst', 'r', encoding='utf-8') as f:
     readme = f.read()
 
-REQUIRES = []
+REQUIRES = [
+    "click"
+]
 
 kwargs = {
     'name': 'name-echoer',
