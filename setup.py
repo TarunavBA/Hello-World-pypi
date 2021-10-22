@@ -25,13 +25,13 @@ REQUIRES = [
 kwargs = {
     'name': 'name-echoer',
     'version': version,
-    'description': '',
+    'description': 'a command line tool that echoes the name given as an argument',
     'long_description': readme,
     'author': 'Tarunav BA',
     'author_email': 'tarunavba@gmail.com',
     'maintainer': 'Tarunav BA',
     'maintainer_email': 'tarunavba@gmail.com',
-    'url': 'https://github.com/_/name-echoer',
+    'url': 'https://github.com/TarunavBA/name-echoer',
     'license': 'MIT/Apache-2.0',
     'classifiers': [
         'Development Status :: 4 - Beta',
