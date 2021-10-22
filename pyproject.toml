@@ -1,0 +1,17 @@
+[metadata]
+name = 'name-echoer'
+version = '0.0.1'
+description = 'a simple command line tool that echos the name of a person'
+author = 'Tarunav BA'
+author_email = 'tarunavba@gmail.com'
+license = 'MIT/Apache-2.0'
+url = 'https://github.com/_/name-echoer'
+
+[requires]
+python_version = ['2.7', '3.5', '3.6', 'pypy', 'pypy3']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'
