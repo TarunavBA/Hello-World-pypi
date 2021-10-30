@@ -7,7 +7,7 @@ from io import open
 
 from setuptools import find_packages, setup
 
-with open('name_echoer/__init__.py', 'r') as f:
+with open('Hello-World-pypi/__init__.py', 'r') as f:
     for line in f:
         if line.startswith('__version__'):
             version = line.strip().split('=')[1].strip(' \'"')
@@ -23,15 +23,15 @@ REQUIRES = [
 ]
 
 kwargs = {
-    'name': 'name-echoer',
+    'name': 'Hello-World-pypi',
     'version': version,
-    'description': 'a command line tool that echoes the name given as an argument',
+    'description': 'a command line tool that echoes HELLO WORLD',
     'long_description': readme,
     'author': 'Tarunav BA',
     'author_email': 'tarunavba@gmail.com',
     'maintainer': 'Tarunav BA',
     'maintainer_email': 'tarunavba@gmail.com',
-    'url': 'https://github.com/TarunavBA/name-echoer',
+    'url': 'https://github.com/TarunavBA/Hello-World-pypi',
     'license': 'MIT/Apache-2.0',
     'classifiers': [
         'Development Status :: 4 - Beta',
